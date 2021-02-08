@@ -16,42 +16,104 @@ nav h1 {
 body header .logo {
 font-size: 2rem;
 font-weight: bold;
-font-color: rgb(255, 0, 0);
 list-style-type: none;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 position: relative;
 top: 10px;
-left: 650px;
-
+left: 350px;
+right: 500px;
 }
  div img {
 width: 50%;
 position: relative;
-top: 100px;
+top: 0px;
  }
   .article {
      background:  linear-gradient (45deg, green black);
  }
  .banner h1 {
-     font-size: 3rem;
-     font-weight: bolder;
-     text-align: right;
-     padding: right;
-     margin: right;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 4rem;
+     font-weight:normal;
+     text-align: left;
+     padding: center;
+     margin: center;
      position: absolute;
-     right: 50px;
+     right: 150px;
      top: 100px;
-     left: 650px;
+     left: 700px;
  }
  
  .banner p {
-     font-size: 2rem;
-     text-align: right;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 2rem;
+     text-align: left;
      position: absolute;
-     top: 200px;
-     left: 600px;
+     top: 350px;
+     left: 700px;
+     right: 150px;
  }
- .main article {
-     background-image: url("/workspace/html-practice/css/palace.jpg") ;
+ main .inform {
+   background-color: rgb(144, 145, 147);
+   border: 3px solid blue;
+ }
+ main .article h2 {
+    font-size: 2rem;
+    text-align: left;
+    position: absolute;
+    left: 100px;
+ }
+ main .article p {
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 1rem;
+     font-weight:normal;
+     text-align: left;
+     padding: center;
+     margin: center;
+     position: absolute;
+     right: 700px;
+     top: 700px;
+     left: 200px;
+ }
+ .statistics {
+     background-color: black;
+     font-size: 2rem;
+ }
+table {
+    display" flex;
+    justify-content: space-between;
+}
+ .blog  {
+     background-color:  rgba(47, 130, 185, 0.1);
+     padding: 10px;
+ }
+ .quote  {
+     background-color:  rgba(223, 128, 226, 0.1);
+   
+     .nature img {
+width: 50%;
+position: relative;
+
+}
+.root h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    position: relative;
+    left: 650px;
+    right: 500px;
+}
+ footer div h1 {
+    font-family: 'Times New Roman', Times, serif;
+    position: sticky;
+    left: 300%;
+}
+ footer h2 {
+     position: relative;
+     left: 500%;
+ }
+ footer img {
+     width: 10%;
+     position: relative;
+     left: 400%;
  }
