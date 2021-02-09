@@ -1,0 +1,35 @@
+:root {
+    --main-color: white;
+}
+
+body .menu {
+background: linear-gradient(90deg,darkslategrey,seagreen);
+}
+
+nav h1 {
+    color: blue;
+    font-size: 2rem; 
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+body .logo {
+font-size: 2rem;
+font-weight: bold;
+font-color: var(--main-color);
+list-style-type: none;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+top: 10px;
+left: 350px;
+right: 500px;
+}
+
+.banner h1 p {
+color: var(--main-color);
+}
+
+
+
