@@ -1,7 +1,8 @@
+
 :root {
     --main-color: white;
+    scroll-behavior: smooth;
 }
-
 body .menu {
 background: linear-gradient(90deg,darkslategrey,seagreen);
 }
@@ -14,22 +15,47 @@ nav h1 {
     top: 10px;
     left: 200px;
 }
-
 body .logo {
+    color: var(--main-color);
 font-size: 2rem;
 font-weight: bold;
-font-color: var(--main-color);
 list-style-type: none;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+display: flex;
+justify-content: space-between;
+align-item: center;
 top: 10px;
 left: 350px;
 right: 500px;
 }
-
-.banner h1 p {
-color: var(--main-color);
+.banner article {
+    display: flex;
+    align-item: right;
 }
+.banner h1 {
+     font-size: 4rem;
+     font-weight:normal;
+     text-align: left;
+     padding: center;
+     margin: center;
+     position: absolute;
+     right: 150px;
+     top: 100px;
+     left: 700px;
+ }
+.banner p {
+    font-size: 2rem;
+     text-align: left;
+     position: absolute;
+     top: 350px;
+     left: 700px;
+     right: 150px;
+ }
+
+.banner img {
+width: 50%;
+position: relative;
+top: 0px;
+ }
 
 
 
